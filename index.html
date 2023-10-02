@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width" />
+
+    <title>Yakup Dülger CG Artist</title>
+
+    <link rel="stylesheet" type="text/css" href="./lib/zoomwall.css" />
+
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        header {
+            padding: 1em;
+            background-color: #333;
+            text-align: center;
+        }
+
+        a:link,
+        a:visited {
+            text-decoration: none;
+            font-family: sans-serif;
+            color: white;
+        }
+
+        a:hover {
+            color: #ddd;
+        }
+
+        #author {
+            float: left;
+        }
+
+        #repo {
+            float: right;
+        }
+
+        #title {
+            display: inline-block;
+            font-weight: bold;
+        }
+    </style>
+
+    <script type="module">
+        import * as zoomwall from "./lib/zoomwall.js";
+
+        window.onload = function () {
+            zoomwall.create(document.getElementById("zoomwall"), true);
+        };
+    </script>
+</head>
+
+<body>
+    <header>
+        <a id="author" href="http://yakupdulger.com.tr">YAKUP DULGER</a><a id="repo"
+            href="https://github.com/ericleong/zoomwall.js">CG Artist</a><a id="title"
+            href="https://github.com/ericleong/zoomwall.js">PROJECTS</a>
+    </header>
+
+    <div id="zoomwall" class="zoomwall">
+        <!-- <img
+        srcset="./images/01_250.jpg 250w, ./images/01_1280.jpg 1280w"
+        sizes="(max-width: 1280px) 250px, 1280px"
+        src="./images/01_250.jpg"
+      /> -->
+        <img srcset="images\Bizerte_View02_Post_resize.jpg 240w, images\Bizerte_View02_Post.jpg 1280w"
+            sizes="(max-width: 1280px) 240px, 1280px" src="images\Bizerte_View02_Post.jpg" />
+        <img srcset="images\Bizerte_View03_Post_resize.jpg 240w, images\Bizerte_View03_Post.jpg 1280w"
+            sizes="(max-width: 1280px) 240px, 1280px" src="images\Bizerte_View03_Post.jpg" />
+        <img srcset="images\Bizerte_View04_Post_resize.jpg 240w, images\Bizerte_View04_Post.jpg 1280w"
+            sizes="(max-width: 1280px) 240px, 1280px" src="images\Bizerte_View04_Post.jpg" />
+        <img srcset="images\Bizerte_View05_Post_resize.jpg 240w, images\Bizerte_View05_Post.jpg 1280w"
+            sizes="(max-width: 1280px) 240px, 1280px" src="images\Bizerte_View05_Post.jpg" />
+        <img srcset="images\Bizerte_View06_Post_resize.jpg 240w, images\Bizerte_View06_Post.jpg 1280w"
+            sizes="(max-width: 1280px) 240px, 1280px" src="images\Bizerte_View06_Post.jpg" />
+        <img srcset="images\Bizerte_View07_Post_resize.jpg 240w, images\Bizerte_View07_Post.jpg 1280w"
+            sizes="(max-width: 1280px) 240px, 1280px" src="images\Bizerte_View07_Post.jpg" />
+        <img srcset="images\Bizerte_View08_Post_resize.jpg 240w, images\Bizerte_View08_Post.jpg 1280w"
+            sizes="(max-width: 1280px) 240px, 1280px" src="images\Bizerte_View08_Post.jpg" />
+        <img srcset="images\Bizerte_View09_Post_resize.jpg 240w, images\Bizerte_View09_Post.jpg 1280w"
+            sizes="(max-width: 1280px) 240px, 1280px" src="images\Bizerte_View09_Post.jpg" />
+        <img srcset="images\Bizerte_View10_Post_resize.jpg 240w, images\Bizerte_View10_Post.jpg 1280w"
+            sizes="(max-width: 1280px) 240px, 1280px" src="images\Bizerte_View10_Post.jpg" />
+        <img srcset="images\Bizerte_View11_Post_resize.jpg 240w, images\Bizerte_View11_Post.jpg 1280w"
+            sizes="(max-width: 1280px) 240px, 1280px" src="images\Bizerte_View11_Post.jpg" />
+        <img srcset="images\Bizerte_View12_Post_resize.jpg 240w, images\Bizerte_View12_Post.jpg 1280w"
+            sizes="(max-width: 1280px) 240px, 1280px" src="images\Bizerte_View12_Post.jpg" />
+    </div>
+</body>
+
+</html>
